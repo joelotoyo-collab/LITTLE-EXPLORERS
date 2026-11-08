@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#2AA3E6"/>
+    </radialGradient>
+    <radialGradient id="face" cx="45%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#FFE7B0"/>
+      <stop offset="1" stop-color="#FFC978"/>
+    </radialGradient>
+    <radialGradient id="mane" cx="50%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#FFB347"/>
+      <stop offset="1" stop-color="#E8701E"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g fill="#FFFFFF" opacity="0.9">
+    <path d="M70 92 l10 26 26 10 -26 10 -10 26 -10 -26 -26 -10 26 -10z"/>
+    <path d="M430 76 l8 20 20 8 -20 8 -8 20 -8 -20 -20 -8 20 -8z"/>
+    <path d="M440 400 l7 17 17 7 -17 7 -7 17 -7 -17 -17 -7 17 -7z"/>
+  </g>
+  <g>
+    <rect x="40" y="420" width="64" height="64" rx="16" fill="#FF8A3D"/>
+    <rect x="412" y="268" width="60" height="60" rx="16" fill="#FFD84D"/>
+    <rect x="30" y="268" width="60" height="60" rx="16" fill="#6EDCB0"/>
+  </g>
+  <circle cx="256" cy="300" r="132" fill="url(#mane)"/>
+  <g fill="#FFB347">
+    <circle cx="150" cy="210" r="34"/>
+    <circle cx="362" cy="210" r="34"/>
+    <circle cx="256" cy="168" r="42"/>
+    <circle cx="176" cy="402" r="30"/>
+    <circle cx="336" cy="402" r="30"/>
+  </g>
+  <circle cx="170" cy="200" r="30" fill="#FFC978"/>
+  <circle cx="342" cy="200" r="30" fill="#FFC978"/>
+  <circle cx="256" cy="282" r="110" fill="url(#face)"/>
+  <ellipse cx="256" cy="330" rx="50" ry="36" fill="#FFF3D6"/>
+  <circle cx="206" cy="268" r="14" fill="#2D3A5A"/>
+  <circle cx="306" cy="268" r="14" fill="#2D3A5A"/>
+  <circle cx="210" cy="263" r="5" fill="#FFFFFF"/>
+  <circle cx="310" cy="263" r="5" fill="#FFFFFF"/>
+  <ellipse cx="184" cy="316" rx="16" ry="10" fill="#FF9A9A" opacity="0.8"/>
+  <ellipse cx="328" cy="316" rx="16" ry="10" fill="#FF9A9A" opacity="0.8"/>
+  <path d="M244 314 Q256 326 268 314 Q262 306 256 310 Q250 306 244 314z" fill="#2D3A5A"/>
+  <path d="M236 340 Q256 362 276 340" fill="none" stroke="#2D3A5A" stroke-width="9" stroke-linecap="round"/>
+</svg>
