@@ -30,16 +30,16 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: "./project-bolt-sb1-c7yrnykb (1)"
+        working-directory: "./project-bolt-sb1-c7yrnykb (1)/project"
 
       - name: Build application
         run: npm run build
-        working-directory: "./project-bolt-sb1-c7yrnykb (1)"
+        working-directory: "./project-bolt-sb1-c7yrnykb (1)/project"
 
       - name: Upload build files
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./project-bolt-sb1-c7yrnykb (1)/dist"
+          path: "./project-bolt-sb1-c7yrnykb (1)/project/dist"
 
   deploy:
     environment:
